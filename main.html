@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Langton's Ant Configuration</title>
+  </head>
+  <body>
+
+    <h2>Langton's Ant Configuration</h2>
+
+    <div>
+      <div>
+        <label for="url">URL:</label>
+        <input type="text" id="url" name="url" required>
+      </div>
+      <div>
+        <label for="rule">Rule:</label>
+        <input type="text" id="rule" name="rule" required>
+      </div>
+
+      <h3>Ant Parameters</h3>
+      <table id="antParametersTable">
+        <thead>
+          <tr>
+            <th>Enable</th>
+            <th>X Initial Position</th>
+            <th>Y Initial Position</th>
+            <th>Direction</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- main.js will create the body of the table. -->
+        </tbody>
+      </table>
+
+      <button onclick="submitForm()">Submit</button>
+    </div>
+    <script src="main.js" type="text/javascript">
+    </script>
+
+  </body>
+</html>
